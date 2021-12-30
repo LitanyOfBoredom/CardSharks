@@ -1,0 +1,74 @@
+@font-face
+{
+	src: url('led.ttf');
+}
+@font-face
+{
+	src: url('ledmono.ttf');
+}
+.number-text
+{
+	-fx-font-size: 76;
+	-fx-font-family: 'Digital-7 Mono';
+	-fx-min-width: 106;
+	-fx-max-width: 106;
+	-fx-padding: 10px;
+	-fx-text-box-border: black;
+	-fx-focus-color: black;
+	-fx-background-insets: 0,2;
+}
+.red-number-text
+{
+	-fx-control-inner-background: #a11a14;
+}
+.blue-number-text
+{
+	-fx-control-inner-background: #213165;
+}
+.actual-number-text
+{
+	-fx-font-size: 125;
+	-fx-text-alignment: right;
+	-fx-font-family: 'Digital-7 Mono';
+	-fx-min-width: 150;
+	-fx-max-width: 150;
+}
+.selected
+{
+	-fx-text-box-border: rgb(242, 211, 64);
+	-fx-focus-color: rgb(242, 211, 64);
+	-fx-background-insets: 0, 3;
+}
+.arrow
+{
+	-fx-stroke: rgba(0,0,0,0);
+	-fx-stroke-width: 0;
+}
+.selected-arrow
+{
+	-fx-stroke: rgb(242, 211, 64);
+	-fx-stroke-width: 3;
+}
+.not-mono
+{
+	-fx-font-family: 'Digital-7 Italic';
+}
+.money-cards-text
+{
+	-fx-font-size: 30;
+	-fx-font-weight: bold;
+	-fx-min-width: 100;
+	-fx-max-width: 100;
+	-fx-padding: 2px;
+	-fx-text-box-border: black;
+	-fx-focus-color: black;
+	-fx-background-insets: 0,2;
+}
+.money-display
+{
+	-fx-font-size: 60;
+	-fx-text-alignment: right;
+	-fx-font-family: 'Digital-7 Mono';
+	-fx-min-width: 150;
+	-fx-max-width: 150;
+}
